@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import PageHeader from "./components/PageHeader/PageHeader.js";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Campaigns from "./pages/Campaigns/Campaigns";
+
+document.title = "marfarfa";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <PageHeader />
+        <Switch>
+          <Route path="/" exact component={Dashboard} />
+          <Route path="/dash" component={Campaigns} />
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 
