@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
         <PageHeader />
         <Switch>
-          <Route path="/" exact component={Dashboard} />
-          <Route path="/dash" component={Campaigns} />
+          {/* <Route path="/" exact component={Dashboard} />
+          <Route path="/campaigns" component={Campaigns} /> */}
         </Switch>
       </BrowserRouter>
     </>
