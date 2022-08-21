@@ -1,2 +1,47 @@
 @use "../../assets/styles/variables" as *;
 @use "../../assets/styles/mixins" as *;
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: $primary-color-grey;
+  padding: 30px 16px 20px 16px;
+
+  &-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-logo__icon {
+    width: 130px;
+  }
+
+  &-container {
+    display: flex;
+  }
+
+  &-greeting {
+    padding-bottom: 20px;
+
+    &__message {
+      font-size: 20px;
+    }
+  }
+
+  &-button__campaign {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 30px 12px 70px;
+    color: $primary-color-white;
+    font-size: 16px;
+    background-color: $primary-color-blue;
+    border: none;
+    border-radius: 8px;
+    background-image: url(../../assets/icons/add.svg);
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+  }
+}
