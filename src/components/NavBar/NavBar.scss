@@ -1,0 +1,31 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #03134d33;
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+
+  &-link {
+    font-size: 12px;
+
+    &__dashboard,
+    &__campaigns,
+    &__assets,
+    &__settings {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &-icon {
+    width: 23px;
+    padding-bottom: 5px;
+  }
+}
