@@ -1,5 +1,5 @@
 import "./NavBar.scss";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import dashboard from "../../assets/icons/nav-dashboard.svg";
 import campaigns from "../../assets/icons/nav-campaigns.svg";
 import assets from "../../assets/icons/nav-assets.svg";

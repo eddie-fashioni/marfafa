@@ -1,4 +1,5 @@
 import "./AllCampaigns.scss";
+import { Link } from "react-router-dom";
 import active from "../../assets/icons/active.svg";
 import fulfilled from "../../assets/icons/fulfilled.svg";
 
@@ -9,15 +10,21 @@ const AllCampaigns = () => {
         <span className="allcampaign-title__text">All campaigns</span>
       </div>
       <div className="allcampaign-details">
-        <div className="allcampaign-container">
-          <div className="allcampaign-container__top">
-            <span className="allcampaign-name">Friday drinks</span>
-            <img className="allcampaign-icon" src={active} alt="active icon" />
+        <Link to="/campaigndetails" className="allcampaign-link">
+          <div className="allcampaign-container">
+            <div className="allcampaign-container__top">
+              <span className="allcampaign-name">Friday drinks</span>
+              <img
+                className="allcampaign-icon"
+                src={active}
+                alt="active icon"
+              />
+            </div>
+            <span className="allcampaign-company">Sid Lee TO</span>
+            <span className="allcampaign-recipients">4 recipients</span>
+            <span className="allcampaign-date">07.22.2022 - 08.24.2022</span>
           </div>
-          <span className="allcampaign-company">Sid Lee TO</span>
-          <span className="allcampaign-recipients">4 recipients</span>
-          <span className="allcampaign-date">07.22.2022 - 08.24.2022</span>
-        </div>
+        </Link>
         <div className="allcampaign-container">
           <div className="allcampaign-container__top">
             <span className="allcampaign-name">Networking event</span>
