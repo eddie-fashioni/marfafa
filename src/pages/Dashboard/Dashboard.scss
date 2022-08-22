@@ -1,10 +1,2 @@
 @use "../../assets/styles/variables" as *;
 @use "../../assets/styles/mixins" as *;
-
-.stats {
-  &-section {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 16px;
-  }
-}

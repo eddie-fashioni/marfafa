@@ -1,0 +1,41 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.campaign {
+  z-index: 1;
+  padding: 20px 16px 8px 16px;
+
+  &-title {
+    font-size: 20px;
+    color: $primary-color-navy;
+  }
+
+  &-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: $primary-color-grey;
+    margin: 10px 0;
+    padding: 10px 24px;
+    border-radius: 8px;
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-name {
+    font-size: 16px;
+    padding-bottom: 4px;
+  }
+
+  &-company {
+    font-size: 12px;
+  }
+
+  &-date {
+    font-size: 12px;
+  }
+}
