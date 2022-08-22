@@ -15,7 +15,7 @@ const NavBar = () => {
             src={dashboard}
             alt="dashboard icon"
           />
-          <span>Dashboard</span>
+          Dashboard
         </NavLink>
       </div>
       <div className="nav-link">
