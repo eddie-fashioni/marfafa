@@ -1,0 +1,56 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.invites {
+  display: flex;
+  flex-direction: column;
+  background-color: $primary-color-grey;
+  padding: 20px 16px 30px 16px;
+
+  &-title {
+    font-size: 20px;
+    padding-bottom: 16px;
+  }
+
+  &-card {
+    display: flex;
+    flex-direction: column;
+    color: $primary-color-navy;
+    background-color: $primary-color-white;
+    width: 60%;
+    border-radius: 8px;
+    padding: 24px 8px 16px 8px;
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  &-avatar__initials {
+    border: 0.5px solid rgba(3, 19, 77, 0.6);
+    border-radius: 50px;
+    padding: 10px;
+  }
+
+  &-details {
+    display: flex;
+    flex-direction: column;
+
+    &__date {
+      font-size: 12px;
+      padding: 5px 0 16px 0;
+    }
+  }
+
+  &-button__resend {
+    background-color: $primary-color-white;
+    color: $primary-color-navy;
+    font-size: 12px;
+    width: 100%;
+    border: 0.5px solid $primary-color-navy;
+    border-radius: 8px;
+    padding: 8px;
+  }
+}

@@ -1,0 +1,17 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.stats {
+  &-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: $primary-color-navy;
+
+    &__middle {
+      border-top: 1px solid #03134d33;
+      border-bottom: 1px solid #03134d33;
+    }
+  }
+}
