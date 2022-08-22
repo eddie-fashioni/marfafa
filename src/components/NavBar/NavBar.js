@@ -19,7 +19,7 @@ const NavBar = () => {
         </NavLink>
       </div>
       <div className="nav-link">
-        <NavLink to="/" className="nav-link__campaigns">
+        <NavLink to="/campaigns" className="nav-link__campaigns">
           <img
             className="nav-icon nav-icon__campaigns"
             src={campaigns}

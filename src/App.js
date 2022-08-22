@@ -14,7 +14,7 @@ function App() {
         <PageHeader />
         <Switch>
           <Route path="/" exact component={Dashboard} />
-          {/* <Route path="/campaigns" component={Campaigns} /> */}
+          <Route path="/campaigns" component={Campaigns} />
         </Switch>
         <NavBar />
       </BrowserRouter>

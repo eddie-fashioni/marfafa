@@ -1,0 +1,55 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.allcampaign {
+  background-color: $primary-color-grey;
+
+  &-title {
+    font-size: 20px;
+    color: $primary-color-navy;
+    padding: 16px 0 8px 16px;
+  }
+
+  &-details {
+    display: flex;
+    flex-direction: column;
+    background-color: $primary-color-white;
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid #03134d33;
+
+    &__top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &-name {
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  &-icon {
+    width: 65px;
+
+    &__fulfilled {
+      width: 80px;
+    }
+  }
+
+  &-company {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+
+  &-recipients,
+  &-date {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+}
