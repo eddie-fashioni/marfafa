@@ -28,14 +28,6 @@ const PageHeader = () => {
           </div>
         </div>
       </div>
-      <div className="header-bottom">
-        <div className="header-greeting">
-          <span className="header-greeting__message">Hello, John</span>
-        </div>
-        <div className="header-button">
-          <button className="header-button__campaign">New campaign</button>
-        </div>
-      </div>
     </section>
   );
 };

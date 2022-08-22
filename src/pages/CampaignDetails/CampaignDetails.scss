@@ -1,0 +1,24 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.header {
+  &-bottom {
+    background-color: $primary-color-grey;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-greeting {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+    &__campaign {
+      font-size: 20px;
+    }
+  }
+  &-icon {
+    padding-left: 20px;
+  }
+}
