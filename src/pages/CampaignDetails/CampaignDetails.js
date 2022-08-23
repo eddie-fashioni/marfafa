@@ -4,6 +4,7 @@ import "./CampaignDetails.scss";
 import activeheader from "../../assets/icons/active-header.svg";
 import CampaignOptions from "../../components/CampaignOptions/CampaignOptions";
 import AddedRecipients from "../../components/AddedRecipients/AddedRecipients";
+import RecipientsInfo from "../../components/RecipientsInfo/RecipientsInfo";
 
 function CampaignDetails() {
   return (
@@ -19,6 +20,7 @@ function CampaignDetails() {
       </div>
       <CampaignOptions />
       <AddedRecipients />
+      <RecipientsInfo />
     </>
   );
 }
