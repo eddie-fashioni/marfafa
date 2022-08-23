@@ -15,18 +15,22 @@
     }
   }
 
-  &-button__campaign {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 12px 30px 12px 70px;
-    color: $primary-color-white;
-    font-size: 16px;
-    background-color: $primary-color-blue;
-    border: none;
-    border-radius: 8px;
-    background-image: url(../../assets/icons/add.svg);
-    background-repeat: no-repeat;
-    background-position: 30% 50%;
+  &-button {
+    padding-bottom: 24px;
+
+    &__campaign {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: 12px 30px 12px 70px;
+      color: $primary-color-white;
+      font-size: 16px;
+      background-color: $primary-color-blue;
+      border: none;
+      border-radius: 8px;
+      background-image: url(../../assets/icons/add.svg);
+      background-repeat: no-repeat;
+      background-position: 30% 50%;
+    }
   }
 }
