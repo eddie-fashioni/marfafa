@@ -31,6 +31,13 @@
       background-image: url(../../assets/icons/add.svg);
       background-repeat: no-repeat;
       background-position: 30% 50%;
+      @include tablet {
+        width: 184px;
+        height: 45px;
+        padding-left: 55px;
+        padding-right: 20px;
+        background-position: 10% 50%;
+      }
     }
   }
 }

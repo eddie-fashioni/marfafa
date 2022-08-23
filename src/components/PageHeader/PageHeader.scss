@@ -6,6 +6,10 @@
   flex-direction: column;
   background-color: $primary-color-grey;
   padding: 30px 16px 0px 16px;
+  @include tablet {
+    margin-left: 20%;
+    padding-top: 5px;
+  }
 
   &-top {
     display: flex;
@@ -17,6 +21,9 @@
 
   &-logo__icon {
     width: 130px;
+    @include tablet {
+      display: none;
+    }
   }
 
   &-container {

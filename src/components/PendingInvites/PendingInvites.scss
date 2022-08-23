@@ -6,6 +6,11 @@
   flex-direction: column;
   background-color: $primary-color-grey;
   padding: 20px 16px 30px 16px;
+  @include tablet {
+    background-color: $primary-color-white;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
 
   &-title {
     font-size: 20px;
@@ -20,12 +25,24 @@
     width: 60%;
     border-radius: 8px;
     padding: 24px 8px 16px 8px;
+    @include tablet {
+      background-color: $primary-color-grey;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding-top: 16px;
+    }
   }
 
   &-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    @include tablet {
+      padding-left: 8px;
+      gap: 10px;
+    }
   }
 
   &-avatar__initials {
@@ -37,10 +54,17 @@
   &-details {
     display: flex;
     flex-direction: column;
+    @include tablet {
+      flex-direction: row;
+      align-items: flex-end;
+    }
 
     &__date {
       font-size: 12px;
       padding: 5px 0 16px 0;
+      @include tablet {
+        padding: 0 0 1px 40px;
+      }
     }
   }
 
@@ -52,5 +76,9 @@
     border: 0.5px solid $primary-color-navy;
     border-radius: 8px;
     padding: 8px;
+    @include tablet {
+      background-color: $primary-color-grey;
+      padding: 4px 16px;
+    }
   }
 }

@@ -5,7 +5,7 @@ import "./Dashboard.scss";
 
 function Dashboard() {
   return (
-    <>
+    <div className="desktop-background">
       <div className="header-bottom">
         <div className="header-greeting">
           <span className="header-greeting__message">Hello, John</span>
@@ -14,10 +14,14 @@ function Dashboard() {
           <button className="header-button__campaign">New campaign</button>
         </div>
       </div>
-      <CampaignStats />
-      <PendingInvites />
-      <ActiveCampaigns />
-    </>
+      <div className="desktop-container">
+        <CampaignStats />
+        <div className="desktop-container__right">
+          <PendingInvites />
+          <ActiveCampaigns />
+        </div>
+      </div>
+    </div>
   );
 }
 

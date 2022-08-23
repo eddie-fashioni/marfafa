@@ -4,6 +4,10 @@
 .campaign {
   z-index: 1;
   padding: 20px 16px 8px 16px;
+  @include tablet {
+    background-color: $primary-color-white;
+    border-radius: 8px;
+  }
 
   &-title {
     font-size: 20px;
@@ -25,6 +29,10 @@
   &-container {
     display: flex;
     flex-direction: column;
+    @include tablet {
+      flex-direction: row;
+      align-items: center;
+    }
   }
 
   &-name {

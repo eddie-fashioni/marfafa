@@ -2,16 +2,32 @@
 @use "../../assets/styles/mixins" as *;
 
 .stats {
+  @include tablet {
+    width: 35%;
+    padding-left: 16px;
+  }
   &-section {
     display: flex;
     justify-content: space-between;
     padding: 8px 16px;
     font-size: 16px;
     color: $primary-color-navy;
+    @include tablet {
+      background-color: $primary-color-white;
+      flex-direction: column;
+      width: 187px;
+      gap: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+    }
 
     &__middle {
       border-top: 1px solid #03134d33;
       border-bottom: 1px solid #03134d33;
+      @include tablet {
+        border: none;
+      }
     }
   }
 }

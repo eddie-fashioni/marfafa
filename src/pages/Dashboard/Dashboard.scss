@@ -5,6 +5,11 @@
   &-bottom {
     background-color: $primary-color-grey;
     padding: 0px 16px 24px 16px;
+    @include tablet {
+      margin-left: 20%;
+      display: flex;
+      flex-direction: row;
+    }
   }
 
   &-greeting {
@@ -31,6 +36,25 @@
       background-image: url(../../assets/icons/add.svg);
       background-repeat: no-repeat;
       background-position: 30% 50%;
+    }
+  }
+}
+
+.desktop-background {
+  background-color: $primary-color-grey;
+  padding-bottom: 72px;
+}
+
+.desktop-container {
+  @include tablet {
+    margin-left: 20%;
+    display: flex;
+  }
+
+  &__right {
+    @include tablet {
+      width: 65%;
+      margin-right: 16px;
     }
   }
 }
