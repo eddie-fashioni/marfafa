@@ -1,0 +1,27 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.options {
+  background-color: $primary-color-grey;
+
+  &-section {
+    background-color: $primary-color-white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: $primary-color-navy;
+  }
+
+  &-payment {
+    margin-bottom: 10px;
+  }
+
+  &-recipients {
+    margin-top: 10px;
+  }
+
+  &__border {
+    border-bottom: 1px solid #03134d33;
+  }
+}

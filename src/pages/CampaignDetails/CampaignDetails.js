@@ -2,6 +2,8 @@
 // import CampaignSummary from "../../components/CampaignSummary/CampaignSummary";
 import "./CampaignDetails.scss";
 import activeheader from "../../assets/icons/active-header.svg";
+import CampaignOptions from "../../components/CampaignOptions/CampaignOptions";
+import AddedRecipients from "../../components/AddedRecipients/AddedRecipients";
 
 function CampaignDetails() {
   return (
@@ -15,6 +17,8 @@ function CampaignDetails() {
           <span className="header-greeting__company">Client: Sid Lee TO</span>
         </div>
       </div>
+      <CampaignOptions />
+      <AddedRecipients />
     </>
   );
 }
