@@ -4,8 +4,8 @@
 .campaign {
   z-index: 1;
   padding: 20px 16px 8px 16px;
+  background-color: $primary-color-white;
   @include tablet {
-    background-color: $primary-color-white;
     border-radius: 8px;
   }
 
