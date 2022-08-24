@@ -48,3 +48,19 @@
     font-size: 12px;
   }
 }
+
+.container-one {
+  @include tablet {
+    gap: 2rem;
+  }
+}
+.container-two {
+  @include tablet {
+    gap: 3rem;
+  }
+}
+.container-three {
+  @include tablet {
+    gap: 5rem;
+  }
+}

@@ -19,8 +19,10 @@ function CampaignDetails() {
         </div>
       </div>
       <CampaignOptions />
-      <AddedRecipients />
-      <RecipientsInfo />
+      <div className="details-hide details-show">
+        <AddedRecipients />
+        <RecipientsInfo />
+      </div>
     </>
   );
 }

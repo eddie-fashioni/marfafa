@@ -1,0 +1,23 @@
+@use "../../assets/styles/variables" as *;
+@use "../../assets/styles/mixins" as *;
+
+.table {
+  background-color: $primary-color-grey;
+  display: none;
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+  }
+
+  &-container {
+    background-color: $primary-color-white;
+    margin: 8px 16px;
+    border-radius: 8px;
+  }
+
+  &-row {
+    display: flex;
+    flex-direction: row;
+  }
+}

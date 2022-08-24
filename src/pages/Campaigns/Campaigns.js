@@ -1,10 +1,11 @@
 import AllCampaigns from "../../components/AllCampaigns/AllCampaigns";
 import CampaignSummary from "../../components/CampaignSummary/CampaignSummary";
+import CampaignTable from "../../components/CampaignTable/CampaignTable";
 import "./Campaigns.scss";
 
 function Campaigns() {
   return (
-    <>
+    <div className="campaign-backgound">
       <div className="header-bottom">
         <div className="header-greeting">
           <span className="header-greeting__message">Campaigns</span>
@@ -15,7 +16,8 @@ function Campaigns() {
       </div>
       <CampaignSummary />
       <AllCampaigns />
-    </>
+      <CampaignTable />
+    </div>
   );
 }
 

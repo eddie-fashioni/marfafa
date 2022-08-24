@@ -3,6 +3,9 @@
 
 .allcampaign {
   background-color: $primary-color-grey;
+  @include tablet {
+    display: none;
+  }
 
   &-title {
     font-size: 20px;

@@ -43,12 +43,16 @@
 .desktop-background {
   background-color: $primary-color-grey;
   padding-bottom: 24px;
+  @include tablet {
+    padding-bottom: 65px;
+  }
 }
 
 .desktop-container {
   @include tablet {
     margin-left: 20%;
     display: flex;
+    padding-top: 16px;
   }
 
   &__right {

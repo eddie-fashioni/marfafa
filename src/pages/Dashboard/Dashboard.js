@@ -6,7 +6,7 @@ import "./Dashboard.scss";
 function Dashboard() {
   return (
     <div className="desktop-background">
-      <div className="header-bottom">
+      <div className="header-bottom header-dashboard">
         <div className="header-greeting">
           <span className="header-greeting__message">Hello, John</span>
         </div>

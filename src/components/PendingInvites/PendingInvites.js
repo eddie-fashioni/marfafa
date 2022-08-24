@@ -1,6 +1,9 @@
 import "./PendingInvites.scss";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const PendingInvites = () => {
+function PendingInvites() {
   return (
     <section className="invites">
       <div className="invites-title">
@@ -28,7 +31,7 @@ const PendingInvites = () => {
             </div>
             <div className="invites-details">
               <span className="invites-details__name">Sam Wang</span>
-              <span className="invites-details__date">08.215.022</span>
+              <span className="invites-details__date">08.15.2022</span>
             </div>
           </div>
           <div className="invites-button">
@@ -38,6 +41,6 @@ const PendingInvites = () => {
       </div>
     </section>
   );
-};
+}
 
 export default PendingInvites;

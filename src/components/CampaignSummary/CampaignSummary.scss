@@ -2,6 +2,9 @@
 @use "../../assets/styles/mixins" as *;
 
 .summary {
+  @include tablet {
+    display: none;
+  }
   &-section {
     display: flex;
     justify-content: space-between;

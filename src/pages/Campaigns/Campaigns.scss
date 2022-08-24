@@ -17,6 +17,9 @@
 
   &-button {
     padding-bottom: 24px;
+    @include tablet {
+      padding-bottom: 0;
+    }
 
     &__campaign {
       display: flex;

@@ -28,15 +28,17 @@ const AddedRecipients = () => {
             <span className="recipients-item__number">SKU: 1029</span>
           </div>
         </div>
-        <div className="recipients-item__details">
-          <span className="recipients-item__size">Size: S</span>
-          <span className="recipients-item__color">Colour: Black</span>
-        </div>
-        <div className="recipients-item__cost">
-          <span className="recipients-item__size">$20.00</span>
-        </div>
-        <div className="recipients-item__remove">
-          <img className="recipients-item__cross" src={remove} alt="cross" />
+        <div className="recipients-containerright">
+          <div className="recipients-item__details">
+            <span className="recipients-item__size">Size: S</span>
+            <span className="recipients-item__color">Colour: Black</span>
+          </div>
+          <div className="recipients-item__cost">
+            <span className="recipients-item__size">$20.00</span>
+          </div>
+          <div className="recipients-item__remove">
+            <img className="recipients-item__cross" src={remove} alt="cross" />
+          </div>
         </div>
       </div>
       <div className="recipients-item">
@@ -53,15 +55,17 @@ const AddedRecipients = () => {
             <span className="recipients-item__number">SKU: 1147</span>
           </div>
         </div>
-        <div className="recipients-item__details">
-          <span className="recipients-item__size">Size: OS</span>
-          <span className="recipients-item__color">Colour: Black</span>
-        </div>
-        <div className="recipients-item__cost">
-          <span className="recipients-item__size">$20.00</span>
-        </div>
-        <div className="recipients-item__remove">
-          <img className="recipients-item__cross" src={remove} alt="cross" />
+        <div className="recipients-containerright">
+          <div className="recipients-item__details">
+            <span className="recipients-item__size">Size: OS</span>
+            <span className="recipients-item__color">Colour: Black</span>
+          </div>
+          <div className="recipients-item__cost">
+            <span className="recipients-item__size">$20.00</span>
+          </div>
+          <div className="recipients-item__remove">
+            <img className="recipients-item__cross" src={remove} alt="cross" />
+          </div>
         </div>
       </div>
     </section>

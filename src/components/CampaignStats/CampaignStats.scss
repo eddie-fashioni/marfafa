@@ -15,7 +15,7 @@
     background-color: $primary-color-white;
     @include tablet {
       flex-direction: column;
-      width: 187px;
+      width: 175px;
       gap: 8px;
       padding: 16px;
       margin-bottom: 16px;
@@ -28,6 +28,12 @@
       @include tablet {
         border: none;
       }
+    }
+  }
+  &-figure {
+    font-size: 20px;
+    @include tablet {
+      font-size: 24px;
     }
   }
 }

@@ -3,6 +3,7 @@
 
 .recipients {
   background-color: $primary-color-grey;
+  color: $primary-color-navy;
   padding-top: 10px;
 
   &-name {
@@ -13,11 +14,11 @@
 
   &-icon {
     padding-left: 20px;
+    width: 108px;
   }
 
   &-item {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     background-color: $primary-color-white;
     padding: 8px 16px;
@@ -42,12 +43,23 @@
     &__cost {
       display: flex;
       align-self: baseline;
-      padding-top: 6px;
       font-size: 12px;
+    }
+
+    &__remove {
+      display: flex;
+      align-items: center;
     }
   }
 
   &-containerleft {
     display: flex;
+    gap: 0.5rem;
+  }
+
+  &-containerright {
+    display: flex;
+    padding-top: 4px;
+    gap: 0.5rem;
   }
 }
