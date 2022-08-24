@@ -2,22 +2,52 @@
 @use "../../assets/styles/mixins" as *;
 
 .table {
-  background-color: $primary-color-grey;
   display: none;
   @include tablet {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20%;
-  }
-
-  &-container {
+    width: 76%;
     background-color: $primary-color-white;
-    margin: 8px 16px;
+    display: inline-block;
+    margin-left: 22%;
+    margin-top: 2%;
     border-radius: 8px;
+    padding: 24px;
+    line-height: 2rem;
   }
 
-  &-row {
+  &-options {
     display: flex;
-    flex-direction: row;
+    padding-left: 0.5rem;
+    gap: 2rem;
+    font-size: 12px;
+    &__all {
+      font-size: 14px;
+    }
+  }
+
+  &-headers {
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  &-event {
+    padding-right: 1.5rem;
+  }
+
+  &-company {
+    font-size: 12px;
+    padding-right: 5rem;
+  }
+
+  &-startdate {
+    font-size: 12px;
+  }
+
+  &-expirydate {
+    font-size: 12px;
+    padding-left: 2rem;
+  }
+
+  &-end {
+    padding-left: 2rem;
   }
 }

@@ -44,3 +44,10 @@
     }
   }
 }
+
+.campaign-background {
+  @include tablet {
+    height: 100vh;
+    background-color: $primary-color-grey;
+  }
+}

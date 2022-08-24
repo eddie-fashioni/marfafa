@@ -21,14 +21,14 @@
     margin-top: 10px;
   }
 
-  &__border {
+  &-border {
     border-bottom: 1px solid #03134d33;
   }
 
-  &-show {
-    display: none;
-    @include tablet {
-      display: inline-block;
-    }
-  }
+  // &-show {
+  //   display: none;
+  //   @include tablet {
+  //     display: inline-block;
+  //   }
+  // }
 }
