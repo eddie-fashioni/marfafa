@@ -1,12 +1,20 @@
 // import AllCampaigns from "../../components/AllCampaigns/AllCampaigns";
 // import CampaignSummary from "../../components/CampaignSummary/CampaignSummary";
 import "./CampaignDetails.scss";
+import { useState } from "react";
 import activeheader from "../../assets/icons/active-header.svg";
 import CampaignOptions from "../../components/CampaignOptions/CampaignOptions";
 import AddedRecipients from "../../components/AddedRecipients/AddedRecipients";
 import RecipientsInfo from "../../components/RecipientsInfo/RecipientsInfo";
 
 function CampaignDetails() {
+  const [showPayment, setShowPayment] = useState(false);
+  const showPaymentHandle = () => {
+    setShowPayment(true);
+  };
+  const hidePaymentHandle = () => {
+    setShowPayment(false);
+  };
   return (
     <>
       <div className="header-bottom">
@@ -18,11 +26,17 @@ function CampaignDetails() {
           <span className="header-greeting__company">Client: Sid Lee TO</span>
         </div>
       </div>
-      <CampaignOptions />
-      <div className="details-hide details-show">
-        <AddedRecipients />
-        <RecipientsInfo />
-      </div>
+      <CampaignOptions
+        clicked={showPaymentHandle}
+        hide={hidePaymentHandle}
+        paymentOpen={showPayment}
+      />
+      {!showPayment && (
+        <div className="details-hide details-show">
+          <AddedRecipients />
+          <RecipientsInfo />
+        </div>
+      )}
     </>
   );
 }
