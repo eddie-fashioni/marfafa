@@ -11,15 +11,20 @@
     padding: 8px 16px;
     font-size: 16px;
     color: $primary-color-navy;
-    cursor: pointer;
   }
 
   &-payment {
     margin-bottom: 10px;
+    cursor: pointer;
   }
 
   &-recipients {
     margin-top: 10px;
+    cursor: pointer;
+  }
+
+  &-details {
+    cursor: pointer;
   }
 
   &-border {

@@ -1,16 +1,8 @@
 import "./CampaignOptions.scss";
-import { useState } from "react";
 import arrow from "../../assets/icons/arrow.svg";
 import PaymentOptions from "../../components/PaymentOptions/PaymentOptions";
-import RecipientsInfo from "../RecipientsInfo/RecipientsInfo";
 
 const CampaignOptions = ({ clicked, paymentOpen, hide }) => {
-  const [isPaymentOpen, setIsPaymentOpen] = useState(false);
-  const [isCampaignOpen, setIsCampaignOpen] = useState(true);
-  const onClick = () => {
-    setIsPaymentOpen(true);
-    setIsCampaignOpen(false);
-  };
   return (
     <section className="options">
       {!paymentOpen && (
@@ -20,7 +12,7 @@ const CampaignOptions = ({ clicked, paymentOpen, hide }) => {
         </div>
       )}
       {paymentOpen && (
-        <div onClick={hide} className="options-section options-payment">
+        <div onClick={hide} className="options-section options-details">
           <span className="options-title">View details</span>
           <img className="options-arrow__icon" src={arrow} alt="arrow icon" />
         </div>

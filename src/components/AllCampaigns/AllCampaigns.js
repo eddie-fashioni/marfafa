@@ -43,7 +43,7 @@ const AllCampaigns = () => {
           <span className="allcampaign-recipients">12 recipients</span>
           <span className="allcampaign-date">06.30.2022 - 07.08.2022</span>
         </div>
-        <div className="allcampaign-container">
+        <div className="allcampaign-container allcampaign-golf">
           <div className="allcampaign-container__top">
             <span className="allcampaign-name">Golf Tournament</span>
             <img
