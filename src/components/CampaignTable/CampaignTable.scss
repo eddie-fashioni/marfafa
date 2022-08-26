@@ -94,4 +94,14 @@
       padding-left: 4rem;
     }
   }
+
+  &-row {
+    &:hover {
+      @include tablet {
+        background: rgba(24, 132, 250, 0.15);
+        border-radius: 8px;
+        width: 100%;
+      }
+    }
+  }
 }

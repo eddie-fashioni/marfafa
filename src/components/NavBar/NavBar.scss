@@ -18,9 +18,13 @@
     align-items: flex-start;
     height: 100vh;
     width: 20%;
-    padding-top: 15px;
+    padding: 15px 16px 0 16px;
     border-top: none;
     border-right: 1px solid #03134d33;
+  }
+  @include desktop {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   &-exit {
@@ -44,6 +48,14 @@
 
   &-link {
     font-size: 12px;
+
+    &:hover {
+      @include tablet {
+        background: rgba(24, 132, 250, 0.15);
+        border-radius: 8px;
+        width: 100%;
+      }
+    }
 
     &__dashboard,
     &__campaigns,

@@ -1,4 +1,5 @@
 import "./ActiveCampaigns.scss";
+import { Link } from "react-router-dom";
 
 const ActiveCampaigns = () => {
   return (
@@ -20,13 +21,15 @@ const ActiveCampaigns = () => {
         </div>
         <span className="campaign-date">08.15.2022</span>
       </div>
-      <div className="campaign-details">
-        <div className="campaign-container container-three">
-          <span className="campaign-name">Friday drinks</span>
-          <span className="campaign-company">Sid Lee TO</span>
+      <Link to="/campaigndetails" className="allcampaign-link">
+        <div className="campaign-details">
+          <div className="campaign-container container-three">
+            <span className="campaign-name">Friday drinks</span>
+            <span className="campaign-company">Sid Lee TO</span>
+          </div>
+          <span className="campaign-date">08.24.2022</span>
         </div>
-        <span className="campaign-date">08.24.2022</span>
-      </div>
+      </Link>
     </section>
   );
 };

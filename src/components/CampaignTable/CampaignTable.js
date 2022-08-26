@@ -20,7 +20,7 @@ const CampaignTable = () => {
         <td className="table-desktop">Recipients</td>
         <td className="table-desktop">Status</td>
       </tbody>
-      <tbody>
+      <tbody className="tablerow">
         <Link to="/campaigndetails" className="table-link">
           <td className="table-event">Friday drinks</td>
         </Link>
@@ -30,7 +30,7 @@ const CampaignTable = () => {
         <td className="table-recipients">4</td>
         <img className="table-icon" src={active} alt="active icon" />
       </tbody>
-      <tbody>
+      <tbody className="tablerow">
         <td className="table-event">Networking event</td>
         <td className="table-company">Monday Girl Social</td>
         <td className="table-startdate">08.01.2022</td>
@@ -38,7 +38,7 @@ const CampaignTable = () => {
         <td className="table-recipients">30</td>
         <img className="table-icon" src={active} alt="active icon" />
       </tbody>
-      <tbody>
+      <tbody className="tablerow">
         <td className="table-event">Summer Conference</td>
         <td className="table-company">437</td>
         <td className="table-startdate">06.30.2022</td>
@@ -46,7 +46,7 @@ const CampaignTable = () => {
         <td className="table-recipients">12</td>
         <img className="table-icon" src={active} alt="active icon" />
       </tbody>
-      <tbody>
+      <tbody className="tablerow">
         <td className="table-event">Golf Tournament</td>
         <td className="table-company">Videotron</td>
         <td className="table-startdate">02.01.2022</td>

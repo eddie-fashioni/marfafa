@@ -6,24 +6,30 @@
   flex-direction: column;
   background-color: $primary-color-grey;
   padding: 20px 16px 10px 16px;
+  overflow-x: scroll;
   @include tablet {
     background-color: $primary-color-white;
     border-radius: 8px;
     margin-bottom: 16px;
+    overflow-x: none;
   }
 
   &-carousel {
     display: flex;
     gap: 1rem;
+    width: 350px;
     @include tablet {
       display: inline;
+      width: 100%;
     }
   }
 
   &-title {
     font-size: 20px;
     padding-bottom: 16px;
+    position: absolute;
     @include tablet {
+      position: relative;
       color: $primary-color-navy;
     }
   }
@@ -33,17 +39,19 @@
     flex-direction: column;
     color: $primary-color-navy;
     background-color: $primary-color-white;
-    width: 60%;
+    width: 186px;
     border-radius: 8px;
     padding: 24px 8px 16px 8px;
     margin-bottom: 10px;
+    margin-top: 36px;
     @include tablet {
       background-color: $primary-color-grey;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      width: 100%;
       padding-top: 16px;
+      margin-top: 0;
+      width: 100%;
     }
   }
 
