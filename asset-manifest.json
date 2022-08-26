@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/marfafa/static/css/main.db0a0852.css",
+    "main.js": "/marfafa/static/js/main.b24742e3.js",
+    "static/media/visa.svg": "/marfafa/static/media/visa.70ae048abdf083749fed1cf54f417824.svg",
+    "static/media/Sailec-Regular.otf": "/marfafa/static/media/Sailec-Regular.1609f71305093bf1dcdd.otf",
+    "static/media/Sailec-Light.otf": "/marfafa/static/media/Sailec-Light.27306443d5aabde2a763.otf",
+    "static/media/nav-settings.svg": "/marfafa/static/media/nav-settings.14ebf9cc8af9ec81f8097f6f50f0f546.svg",
+    "static/media/nav-assets.svg": "/marfafa/static/media/nav-assets.854acbdeb583b7eab294a16ac6ccd7c0.svg",
+    "static/media/nav-dashboard.svg": "/marfafa/static/media/nav-dashboard.f7bc4f2faf790c29b52757211b9734ba.svg",
+    "static/media/unanswered.svg": "/marfafa/static/media/unanswered.8f0d74e2bdf23f5332e5cdfb9d52d623.svg",
+    "static/media/nav-campaigns.svg": "/marfafa/static/media/nav-campaigns.adbf0640c854bcbaead9cf1deaeabd74.svg",
+    "static/media/logo.svg": "/marfafa/static/media/logo.b0e699e5c34f79253b43e355d873215e.svg",
+    "static/media/orderstatus.svg": "/marfafa/static/media/orderstatus.d3417b20080e2dfc4c6e6af3f3980263.svg",
+    "static/media/bell.svg": "/marfafa/static/media/bell.0839deac7d090618a65ff18c58c32752.svg",
+    "static/media/submit.svg": "/marfafa/static/media/submit.9cfd5dc6282c17ee036e14f1108a9e32.svg",
+    "static/media/nav-exit.svg": "/marfafa/static/media/nav-exit.d84b2d17ecb062e561fd418c3fe01d8e.svg",
+    "static/media/remove.svg": "/marfafa/static/media/remove.c2938e3e0b05b47764acb571eacbf652.svg",
+    "static/media/fulfilled.svg": "/marfafa/static/media/fulfilled.accbeecd8b37c1b321d7e8b3607f2366.svg",
+    "static/media/active.svg": "/marfafa/static/media/active.d3670fb1d363007bf0874f9d3b46bbc2.svg",
+    "static/media/active-header.svg": "/marfafa/static/media/active-header.ba7fa7c2d3b48d3031ae386b60dd6501.svg",
+    "static/media/cross.svg": "/marfafa/static/media/cross.4696baf290d6ba938281b844a3c91f41.svg",
+    "static/media/button.svg": "/marfafa/static/media/button.cd48b6e1275fe5f37b9b9b5e6b27d1dd.svg",
+    "static/media/add.svg": "/marfafa/static/media/add.6e67eb19c5b202858018.svg",
+    "static/media/arrow.svg": "/marfafa/static/media/arrow.ab6c5e97cce52d9278c695391708ff1f.svg",
+    "index.html": "/marfafa/index.html",
+    "static/media/avatar.svg": "/marfafa/static/media/avatar.e18265f56f1d5e0ddb48c0b274ad87b5.svg",
+    "static/media/rectangle.svg": "/marfafa/static/media/rectangle.2535d72167bccc581b1c5e4f0eef8f76.svg",
+    "main.db0a0852.css.map": "/marfafa/static/css/main.db0a0852.css.map",
+    "main.b24742e3.js.map": "/marfafa/static/js/main.b24742e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db0a0852.css",
+    "static/js/main.b24742e3.js"
+  ]
+}
