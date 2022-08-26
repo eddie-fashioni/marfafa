@@ -4,39 +4,39 @@
 .header {
   &-dashboard {
     background-color: $primary-color-grey;
-    padding: 0px 16px 24px 16px;
+    padding: 0 1rem 1.5rem 1rem;
     @include tablet {
       margin-left: 20%;
       display: flex;
       flex-direction: row;
     }
     @include desktop {
-      padding: 0 40px;
+      padding: 0 2.5rem;
     }
   }
 
   &-greeting {
     font-weight: 500;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 
     &__message {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
   }
 
   &-button {
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
 
     &__campaign {
       display: flex;
       justify-content: center;
       width: 100%;
-      padding: 12px 30px 12px 70px;
+      padding: 0.75rem 1.875rem 0.75rem 4.375rem;
       color: $primary-color-white;
-      font-size: 16px;
+      font-size: 1rem;
       background-color: $primary-color-blue;
       border: none;
-      border-radius: 8px;
+      border-radius: 0.5rem;
       background-image: url(../../assets/icons/add.svg);
       background-repeat: no-repeat;
       background-position: 30% 50%;
@@ -46,9 +46,9 @@
 
 .desktop-background {
   background-color: $primary-color-grey;
-  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
   @include tablet {
-    padding-bottom: 65px;
+    padding-bottom: 4.0625rem;
     height: 100vh;
   }
 }
@@ -57,16 +57,16 @@
   @include tablet {
     margin-left: 20%;
     display: flex;
-    padding-top: 16px;
+    padding-top: 1rem;
   }
   @include desktop {
-    padding: 24px;
+    padding: 1.5rem;
   }
 
   &__right {
     @include tablet {
       width: 65%;
-      margin-right: 16px;
+      margin-right: 1rem;
       padding-left: 1rem;
     }
   }

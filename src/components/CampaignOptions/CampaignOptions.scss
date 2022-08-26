@@ -4,17 +4,17 @@
 .options {
   background-color: $primary-color-grey;
   @include tablet {
-    padding-top: 24px;
+    padding-top: 1.5rem;
     margin-left: 20%;
-    padding: 16px;
+    padding: 1rem;
   }
 
   &-section {
     background-color: $primary-color-white;
     display: flex;
     justify-content: space-between;
-    padding: 8px 16px;
-    font-size: 16px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
     color: $primary-color-navy;
   }
 
@@ -22,30 +22,30 @@
     @include tablet {
       display: flex;
       gap: 1rem;
-      padding-bottom: 8px;
+      padding-bottom: 0.5rem;
     }
   }
 
   &-number {
     @include tablet {
-      font-size: 32px;
-      padding-top: 8px;
+      font-size: 2rem;
+      padding-top: 0.5rem;
     }
   }
 
   &-payment {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     cursor: pointer;
-    padding: 12px 16px;
-    font-size: 18px;
+    padding: 0.75rem 1rem;
+    font-size: 1.125rem;
     @include tablet {
       background-color: $primary-color-grey;
       position: absolute;
-      width: 125px;
+      width: 7.8125rem;
       padding: 0;
       margin: 0;
-      top: 85px;
-      right: 10px;
+      top: 5.3125rem;
+      right: 0.625rem;
       font-weight: 400;
     }
     @include desktop {
@@ -54,24 +54,24 @@
   }
 
   &-recipients {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     cursor: pointer;
-    padding: 12px 16px;
-    font-size: 18px;
+    padding: 0.75rem 1rem;
+    font-size: 1.125rem;
   }
 
   &-details {
     cursor: pointer;
-    padding: 12px 16px;
-    font-size: 18px;
+    padding: 0.75rem 1rem;
+    font-size: 1.125rem;
     @include tablet {
       background-color: $primary-color-grey;
       position: absolute;
-      width: 125px;
+      width: 7.8125rem;
       padding: 0;
       margin: 0;
-      top: 85px;
-      right: 5px;
+      top: 5.3125rem;
+      right: 0.3125rem;
       font-weight: 400;
     }
     @include desktop {
@@ -80,14 +80,14 @@
   }
 
   &-border {
-    border-bottom: 1px solid #03134d33;
+    border-bottom: 0.0625rem solid #03134d33;
     font-weight: 500;
     @include tablet {
       border: none;
       display: flex;
       flex-direction: column;
-      border-radius: 8px;
-      width: 160px;
+      border-radius: 0.5rem;
+      width: 10rem;
     }
   }
 
@@ -104,7 +104,7 @@
   }
 
   &-button {
-    width: 36px;
+    width: 2.25rem;
   }
 
   &-form {
@@ -112,19 +112,19 @@
     @include tablet {
       background-color: $primary-color-white;
       display: flex;
-      padding: 0 16px 16px 16px;
+      padding: 0 1rem 1rem 1rem;
 
       &__container {
         display: flex;
         align-items: flex-end;
-        gap: 10px;
+        gap: 0.625rem;
       }
 
       &__input {
         color: $primary-color-navy;
         display: flex;
         flex-direction: column;
-        font-size: 14px;
+        font-size: 0.875rem;
       }
     }
   }
@@ -138,13 +138,13 @@
 
   #nameInput,
   #emailInput {
-    border: 0.5px solid $primary-color-navy;
-    border-radius: 8px;
+    border: 0.0313rem solid $primary-color-navy;
+    border-radius: 0.5rem;
     background-color: $primary-color-grey;
     font: $font-family;
     resize: none;
-    width: 230px;
-    margin-top: 8px;
-    padding-left: 8px;
+    width: 14.375rem;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
   }
 }

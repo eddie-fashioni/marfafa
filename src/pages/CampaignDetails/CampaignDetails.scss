@@ -17,13 +17,13 @@
   &-greeting {
     display: flex;
     flex-direction: column;
-    padding-bottom: 12px;
+    padding-bottom: 0.75rem;
     @include tablet {
       padding-bottom: 0;
     }
 
     &__campaign {
-      font-size: 20px;
+      font-size: 1.25rem;
     }
 
     &__company {
@@ -31,7 +31,7 @@
     }
   }
   &-icon {
-    padding-left: 20px;
+    padding-left: 1.25rem;
   }
 
   .mobile-container {

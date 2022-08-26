@@ -8,10 +8,10 @@
   }
 
   &-title {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     color: $primary-color-navy;
-    padding: 16px 0 8px 16px;
+    padding: 1rem 0 0.5rem 1rem;
   }
 
   &-details {
@@ -24,8 +24,8 @@
     color: $primary-color-black;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    border-bottom: 1px solid #03134d33;
+    padding: 0.625rem;
+    border-bottom: 0.0625rem solid #03134d33;
 
     &__top {
       display: flex;
@@ -35,28 +35,28 @@
   }
 
   &-name {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    padding-bottom: 4px;
+    padding-bottom: 0.25rem;
   }
 
   &-icon {
-    width: 65px;
+    width: 4.0625rem;
 
     &__fulfilled {
-      width: 80px;
+      width: 5rem;
     }
   }
 
   &-company {
-    font-size: 16px;
-    padding-bottom: 5px;
+    font-size: 1rem;
+    padding-bottom: 0.3125rem;
   }
 
   &-recipients,
   &-date {
-    font-size: 15px;
-    padding-bottom: 5px;
+    font-size: 0.9375rem;
+    padding-bottom: 0.3125rem;
   }
 
   &-golf {

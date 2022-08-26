@@ -3,23 +3,23 @@
 
 .campaign {
   z-index: 1;
-  padding: 20px 16px 8px 16px;
+  padding: 1.25rem 1rem 0.5rem 1rem;
   background-color: $primary-color-white;
   @include tablet {
-    border-radius: 8px;
+    border-radius: 0.5rem;
   }
   @include desktop {
     position: absolute;
-    left: 296px;
-    top: 300px;
-    width: 512px;
+    left: 18.5rem;
+    top: 18.75rem;
+    width: 32rem;
   }
 
   &-title {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     color: $primary-color-navy;
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
   }
 
   &-details {
@@ -28,16 +28,16 @@
     justify-content: space-between;
     align-items: baseline;
     background-color: $primary-color-grey;
-    margin: 10px 0;
-    padding: 10px 24px;
-    border-radius: 8px;
+    margin: 0.625rem 0;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
     color: $primary-color-black;
     cursor: pointer;
 
     &:hover {
       @include tablet {
         background: rgba(24, 132, 250, 0.15);
-        border-radius: 8px;
+        border-radius: 0.5rem;
         width: 100%;
       }
     }
@@ -53,17 +53,17 @@
   }
 
   &-name {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    padding-bottom: 4px;
+    padding-bottom: 0.25rem;
   }
 
   &-company {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   &-date {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 
