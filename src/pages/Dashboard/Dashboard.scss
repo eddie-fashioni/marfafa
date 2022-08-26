@@ -2,7 +2,7 @@
 @use "../../assets/styles/mixins" as *;
 
 .header {
-  &-bottom {
+  &-dashboard {
     background-color: $primary-color-grey;
     padding: 0px 16px 24px 16px;
     @include tablet {
@@ -54,6 +54,9 @@
     margin-left: 20%;
     display: flex;
     padding-top: 16px;
+  }
+  @include desktop {
+    padding: 24px;
   }
 
   &__right {

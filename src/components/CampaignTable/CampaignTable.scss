@@ -13,6 +13,10 @@
     padding: 24px;
     line-height: 2rem;
   }
+  @include desktop {
+    width: 66%;
+    margin-left: 23%;
+  }
 
   &-options {
     display: flex;
@@ -36,6 +40,9 @@
   &-company {
     font-size: 12px;
     padding-right: 5rem;
+    @include desktop {
+      padding-right: 3rem;
+    }
   }
 
   &-startdate {
@@ -45,9 +52,41 @@
   &-expirydate {
     font-size: 12px;
     padding-left: 2rem;
+    @include desktop {
+      padding-left: 4rem;
+    }
+  }
+
+  &-recipients {
+    display: none;
+    @include desktop {
+      display: table-cell;
+      font-size: 12px;
+      padding-left: 5.5rem;
+    }
+  }
+
+  &-icon {
+    display: none;
+    @include desktop {
+      display: table-cell;
+      margin-left: 62px;
+      padding-top: 10px;
+    }
   }
 
   &-end {
     padding-left: 2rem;
+    @include desktop {
+      padding-left: 4rem;
+    }
+  }
+
+  &-desktop {
+    display: none;
+    @include desktop {
+      display: table-cell;
+      padding-left: 4rem;
+    }
   }
 }

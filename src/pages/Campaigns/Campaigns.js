@@ -6,7 +6,7 @@ import "./Campaigns.scss";
 function Campaigns() {
   return (
     <div className="campaign-background">
-      <div className="header-bottom">
+      <div className="header-bottom header-campaign">
         <div className="header-greeting">
           <span className="header-greeting__message">Campaigns</span>
         </div>

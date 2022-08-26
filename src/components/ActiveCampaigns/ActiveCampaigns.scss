@@ -8,6 +8,12 @@
   @include tablet {
     border-radius: 8px;
   }
+  @include desktop {
+    position: absolute;
+    left: 296px;
+    top: 275px;
+    width: 512px;
+  }
 
   &-title {
     font-size: 20px;
