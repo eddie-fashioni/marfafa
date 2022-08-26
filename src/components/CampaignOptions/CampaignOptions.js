@@ -7,12 +7,15 @@ const CampaignOptions = ({ clicked, paymentOpen, hide }) => {
     <section className="options">
       {!paymentOpen && (
         <div onClick={clicked} className="options-section options-payment">
-          <span className="options-title">View payment</span>
+          <span className="options-title options-underline">View payment</span>
           <img className="options-arrow__icon" src={arrow} alt="arrow icon" />
         </div>
       )}
       {paymentOpen && (
-        <div onClick={hide} className="options-section options-details">
+        <div
+          onClick={hide}
+          className="options-section options-details options-underline"
+        >
           <span className="options-title">View details</span>
           <img className="options-arrow__icon" src={arrow} alt="arrow icon" />
         </div>

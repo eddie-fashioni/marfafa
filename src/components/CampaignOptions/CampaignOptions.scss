@@ -39,7 +39,14 @@
     padding: 12px 16px;
     font-size: 18px;
     @include tablet {
-      display: none;
+      background-color: $primary-color-grey;
+      position: absolute;
+      width: 120px;
+      padding: 0;
+      margin: 0;
+      top: 65px;
+      right: 10px;
+      font-weight: 400;
     }
   }
 
@@ -54,6 +61,16 @@
     cursor: pointer;
     padding: 12px 16px;
     font-size: 18px;
+    @include tablet {
+      background-color: $primary-color-grey;
+      position: absolute;
+      width: 120px;
+      padding: 0;
+      margin: 0;
+      top: 65px;
+      right: 5px;
+      font-weight: 400;
+    }
   }
 
   &-border {
@@ -64,6 +81,18 @@
       flex-direction: column;
       border-radius: 8px;
       width: 160px;
+    }
+  }
+
+  &-underline {
+    @include tablet {
+      text-decoration: underline;
+    }
+  }
+
+  &-arrow__icon {
+    @include tablet {
+      display: none;
     }
   }
 }
