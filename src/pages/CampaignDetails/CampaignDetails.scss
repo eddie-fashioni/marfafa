@@ -17,7 +17,7 @@
   &-greeting {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
     @include tablet {
       padding-bottom: 0;
     }
@@ -34,10 +34,3 @@
     display: none;
   }
 }
-
-// .details-hide {
-//   display: none;
-//   @include tablet {
-//     display: inline-block;
-//   }
-// }

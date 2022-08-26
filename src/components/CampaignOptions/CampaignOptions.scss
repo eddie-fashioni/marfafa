@@ -3,6 +3,11 @@
 
 .options {
   background-color: $primary-color-grey;
+  @include tablet {
+    padding-top: 24px;
+    margin-left: 20%;
+    padding: 16px;
+  }
 
   &-section {
     background-color: $primary-color-white;
@@ -13,28 +18,52 @@
     color: $primary-color-navy;
   }
 
+  &-stats {
+    @include tablet {
+      display: flex;
+      gap: 1rem;
+      padding-bottom: 8px;
+    }
+  }
+
+  &-number {
+    @include tablet {
+      font-size: 32px;
+      padding-top: 8px;
+    }
+  }
+
   &-payment {
     margin-bottom: 10px;
     cursor: pointer;
+    padding: 12px 16px;
+    font-size: 18px;
+    @include tablet {
+      display: none;
+    }
   }
 
   &-recipients {
     margin-top: 10px;
     cursor: pointer;
+    padding: 12px 16px;
+    font-size: 18px;
   }
 
   &-details {
     cursor: pointer;
+    padding: 12px 16px;
+    font-size: 18px;
   }
 
   &-border {
     border-bottom: 1px solid #03134d33;
+    @include tablet {
+      border: none;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px;
+      width: 160px;
+    }
   }
-
-  // &-show {
-  //   display: none;
-  //   @include tablet {
-  //     display: inline-block;
-  //   }
-  // }
 }

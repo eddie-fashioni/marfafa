@@ -5,6 +5,10 @@
   display: flex;
   flex-direction: column;
   background-color: $primary-color-grey;
+  @include tablet {
+    margin-left: 20%;
+    padding: 0 16px 16px 16px;
+  }
 
   &-title {
     font-size: 20px;
@@ -19,13 +23,23 @@
     border-radius: 8px;
     padding: 24px 16px 16px 16px;
     margin-top: 10px;
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 16px;
+    }
   }
 
   &-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
+    @include tablet {
+      padding-bottom: 0;
+      padding-top: 12px;
+    }
 
     &__left {
       display: flex;
@@ -42,11 +56,26 @@
     display: flex;
     flex-direction: column;
     padding-left: 12px;
+    @include tablet {
+      flex-direction: row;
+      gap: 1.5rem;
+    }
   }
 
   &__email {
     font-size: 12px;
     padding: 5px 0 16px 0;
+    @include tablet {
+      padding-top: 3px;
+    }
+  }
+
+  &__unanswered {
+    width: 87px;
+    @include tablet {
+      width: 105px;
+      padding-left: 1.5rem;
+    }
   }
 
   &-button__reminder {
@@ -57,5 +86,8 @@
     border: 0.5px solid $primary-color-navy;
     border-radius: 8px;
     padding: 8px;
+    @include tablet {
+      width: 117px;
+    }
   }
 }

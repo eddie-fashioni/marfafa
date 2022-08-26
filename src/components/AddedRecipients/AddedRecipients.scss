@@ -5,11 +5,19 @@
   background-color: $primary-color-grey;
   color: $primary-color-navy;
   padding-top: 10px;
+  @include tablet {
+    margin-left: 20%;
+    padding: 0 16px;
+  }
 
   &-name {
     display: flex;
     background-color: $primary-color-white;
     padding: 8px 16px;
+    @include tablet {
+      padding-top: 16px;
+      font-size: 24px;
+    }
   }
 
   &-icon {
@@ -44,22 +52,46 @@
       display: flex;
       align-self: baseline;
       font-size: 12px;
+      padding-right: 1rem;
+    }
+
+    &__cross {
+      display: flex;
+      align-items: center;
+      @include tablet {
+        display: none;
+      }
     }
 
     &__remove {
-      display: flex;
-      align-items: center;
+      display: none;
+      @include tablet {
+        width: 55px;
+        display: flex;
+        align-items: center;
+      }
     }
   }
 
-  &-containerleft {
+  &-container__left {
     display: flex;
     gap: 0.5rem;
   }
 
-  &-containerright {
+  &-container__right {
     display: flex;
     padding-top: 4px;
     gap: 0.75rem;
+    @include tablet {
+      gap: 14rem;
+    }
+  }
+
+  &-tablet__container {
+    border-radius: 8px;
+  }
+
+  &-tablet__bottom {
+    padding-bottom: 16px;
   }
 }

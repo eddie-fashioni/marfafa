@@ -23,11 +23,11 @@ const CampaignOptions = ({ clicked, paymentOpen, hide }) => {
           <div className="options-stats">
             <div className="options-section options-border">
               <span className="options-title">Answers</span>
-              <span className="options-title">1/4</span>
+              <span className="options-number">1/4</span>
             </div>
             <div className="options-section options-border">
               <span className="options-title">Days left</span>
-              <span className="options-title">21</span>
+              <span className="options-number">21</span>
             </div>
           </div>
           <div className="options-section options-recipients">

@@ -9,12 +9,12 @@ const CampaignTable = () => {
         <td>Processing</td>
         <td>Archive</td>
       </thead>
-      <thead className="table-headers">
+      <tbody className="table-headers">
         <td>Campaign</td>
         <td>Client</td>
         <td>Date created</td>
         <td className="table-end">Expiry date</td>
-      </thead>
+      </tbody>
       <tbody>
         <td className="table-event">Friday drinks</td>
         <td className="table-company">Sid Lee TO</td>

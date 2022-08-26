@@ -3,7 +3,6 @@
 
 .stats {
   @include tablet {
-    width: 35%;
     padding-left: 16px;
   }
   &-section {
@@ -15,11 +14,10 @@
     background-color: $primary-color-white;
     @include tablet {
       flex-direction: column;
-      width: 175px;
-      gap: 8px;
-      padding: 16px;
+      width: 160px;
       margin-bottom: 16px;
       border-radius: 8px;
+      gap: 0.5rem;
     }
 
     &__middle {
