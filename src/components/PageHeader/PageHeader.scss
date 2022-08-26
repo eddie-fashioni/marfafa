@@ -18,6 +18,9 @@
     align-items: center;
     justify-content: space-between;
     padding-bottom: 8px;
+    @include tablet {
+      padding-bottom: 24px;
+    }
     @include desktop {
       padding: 24px;
     }

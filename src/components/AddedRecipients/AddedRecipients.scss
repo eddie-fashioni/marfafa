@@ -13,9 +13,9 @@
   &-name {
     display: flex;
     background-color: $primary-color-white;
-    padding: 8px 16px;
+    padding: 16px 16px 8px 16px;
+    font-weight: 500;
     @include tablet {
-      padding-top: 16px;
       font-size: 24px;
     }
   }
@@ -30,6 +30,10 @@
     justify-content: space-between;
     background-color: $primary-color-white;
     padding: 8px 16px;
+
+    &__name {
+      font-weight: 500;
+    }
 
     &__id {
       display: flex;
