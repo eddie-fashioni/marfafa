@@ -95,4 +95,42 @@
       display: none;
     }
   }
+
+  &-button {
+    width: 36px;
+  }
+
+  &-form {
+    display: none;
+    @include tablet {
+      background-color: $primary-color-white;
+      display: flex;
+      padding: 0 16px 16px 16px;
+
+      &__container {
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+      }
+
+      &__input {
+        color: $primary-color-navy;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+      }
+    }
+  }
+
+  #nameInput,
+  #emailInput {
+    border: 0.5px solid $primary-color-navy;
+    border-radius: 8px;
+    background-color: $primary-color-grey;
+    font: $font-family;
+    resize: none;
+    width: 230px;
+    margin-top: 8px;
+    padding-left: 8px;
+  }
 }

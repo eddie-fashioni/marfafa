@@ -1,5 +1,6 @@
 import "./CampaignOptions.scss";
 import arrow from "../../assets/icons/arrow.svg";
+import button from "../../assets/icons/button.svg";
 import PaymentOptions from "../../components/PaymentOptions/PaymentOptions";
 
 const CampaignOptions = ({ clicked, paymentOpen, hide }) => {
@@ -37,6 +38,23 @@ const CampaignOptions = ({ clicked, paymentOpen, hide }) => {
             <span className="options-title">Add recipients</span>
             <img className="options-arrow__icon" src={arrow} alt="arrow icon" />
           </div>
+          <form className="options-form">
+            <div className="options-form__container">
+              <label className="options-form__input" htmlFor="nameInput">
+                Name
+                <textarea id="nameInput" name="name"></textarea>
+              </label>
+              <label className="options-form__input" htmlFor="emailInput">
+                Email address
+                <textarea id="emailInput" name="email"></textarea>
+              </label>
+              <img
+                className="options-button__icon"
+                src={button}
+                alt="button icon"
+              />
+            </div>
+          </form>
         </div>
       )}
     </section>

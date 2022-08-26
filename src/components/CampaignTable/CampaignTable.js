@@ -1,4 +1,5 @@
 import "./CampaignTable.scss";
+import { Link } from "react-router-dom";
 import active from "../../assets/icons/active.svg";
 import fulfilled from "../../assets/icons/fulfilled.svg";
 
@@ -20,7 +21,9 @@ const CampaignTable = () => {
         <td className="table-desktop">Status</td>
       </tbody>
       <tbody>
-        <td className="table-event">Friday drinks</td>
+        <Link to="/campaigndetails" className="table-link">
+          <td className="table-event">Friday drinks</td>
+        </Link>
         <td className="table-company">Sid Lee TO</td>
         <td className="table-startdate">07.22.2022</td>
         <td className="table-expirydate">08.24.2022</td>
